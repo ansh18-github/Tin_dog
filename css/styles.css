@@ -1,0 +1,194 @@
+/*//.....................................whole webpage.........................................//*/
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: left;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.big-heading {
+  font-size: 3.3rem;
+  line-height: 1.5;
+  font-weight: bolder;
+  color: #fff;
+}
+
+p {
+  padding: 0 4%;
+  font-weight: 200;
+  color: grey;
+}
+
+/*....................................section 1................................*/
+.container-fluid {
+  padding: 7% 15%;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+#testimonials .container-fluid {
+  padding: 7% 15% 3%;
+}
+
+/*.........................navbar............................*/
+/*TinDog*/
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  font-size: 2.6rem;
+}
+
+/*price buy contact about us*/
+.nav-link {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+  font-weight: bolder;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+/*navbar(tindog price buy conetct about us)*/
+.navbar {
+  padding: 0 0 4.6rem;
+}
+
+/*....................heading,download,img.......................*/
+/*Meet new and interesting dogs nearby*/
+/* download button*/
+.download-button {
+  margin: 6% 4% 6% 0;
+}
+
+/* section1 mobile image*/
+.rot {
+  transform: rotate(20deg);
+  width: 60%;
+  position: absolute;
+  right: 30%;
+}
+
+/*....................................Features................................*/
+#features {
+  background-color: #fff;
+  position: relative;
+}
+
+.features-h3 {
+  font-weight: bolder;
+  margin: 12px 0 0 0;
+}
+
+/* section2 body*/
+/* .fluid {
+  padding: 130px 180px;
+  text-align: center;
+} */
+/*icons image*/
+.ion-colr {
+  color: #ef8172;
+  font-size: 5.2rem;
+}
+
+/* hover icons image*/
+.ion-hover:hover {
+  color: #ff4c68;
+}
+
+/*text */
+.box {
+  padding: 0 5%;
+}
+
+/*...................................Testimonials................................*/
+/* testimonials */
+#testimonials {
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-text {
+  font-size: 2.2rem;
+  font-weight: bold;
+  line-height: 1.4;
+}
+
+/* .carousel-item {
+  padding: 7% 15%;
+} */
+/* dog-img */
+.dog-img {
+  width: 12%;
+  margin: 2%;
+  border-radius: 100%;
+}
+
+/*....................................Press................................*/
+#press {
+  background-color: #ef8172;
+}
+
+.logo-afterdog {
+  width: 21%;
+  margin: 0 16px;
+  padding-bottom: 15px;
+}
+
+/*--------------------------Pricing----------------------------------------*/
+#pricing {
+  background-color: #fff;
+}
+
+.pricing-text {
+  font-size: 2.2rem;
+  font-weight: bold;
+  line-height: 1.4;
+}
+
+.pricing-h3 {
+  font-weight: bolder;
+  margin: 12px 0 0 0;
+}
+
+.hel {
+  padding: 4% 2%;
+}
+
+/*--------------------MEDIA QUERY----------------------------------------------*/
+@media (max-width:1015px) {
+  #title {
+    text-align: center;
+  }
+
+  .rot {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/*----------------------------cta--------------------------------------*/
+#cta {
+  background-color: #ff4c68;
+}
+
+/*---------------------------Footer--------------------------------------*/
+#footer {
+  background-color: #fff;
+}
+
+.fa-2x {
+  margin: 0 3%;
+  padding-bottom: 3%;
+}
